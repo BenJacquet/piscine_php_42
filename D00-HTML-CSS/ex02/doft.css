@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  background-color: grey;
+}
+
+.container {
+  background-color: rgb(147, 146, 146);
+  border-radius: 10%;
+}
+
+.top {
+  align-self: center;
+}

@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mendeleiev's Periodic Table</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: aliceblue;
+    }
+    table {
+      width: 75%;
+    }
+    td {
+      width: 50px;
+      height: 50px;
+    }
+    big {
+      align-self: center;
+      font-size: 1.5vw;
+    }
+    td::after {
+      display: block;
+    }
+    .element {
+      display: flex;
+      flex-direction: column;
+    }
+    .weight {
+      right: 0;
+      align-self: flex-end;
+      font-size: 1vw;
+    }
+    .number {
+      align-self: flex-start;
+      font-size: 1vw;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mendeleiev's Periodic Table</h1>
+  <table align="center" border="1" cellspacing="4">
+    <!-- NEW ROW -->
+    <tr>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>H</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td colspan="16"></td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>He</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+    </tr>
+    <!-- NEW ROW -->
+    <tr>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Li</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Be</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td colspan="10"></td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>B</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>C</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>N</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>O</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>F</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ne</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+    </tr>
+    <!-- NEW ROW -->
+    <tr>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Na</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Mg</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td colspan="10"></td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Al</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Si</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>P</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>S</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Cl</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ar</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+    </tr>
+    <!-- NEW ROW -->
+    <tr>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>K</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ca</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Sc</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ti</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>V</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Cr</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Mn</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Fe</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Co</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ni</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Cu</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Zn</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ga</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ge</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>As</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Se</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Br</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Kr</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+    </tr>
+    <!-- NEW ROW -->
+    <tr>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Rb</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Sr</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Y</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Zr</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Nb</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Mo</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Tc</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ru</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Rh</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Pd</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ag</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Cd</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>In</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Sn</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Sb</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Te</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>I</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Xe</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+    </tr>
+    <!-- NEW ROW -->
+    <tr>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Cs</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ba</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Lu</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Hf</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ta</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>W</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Re</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Os</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ir</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Pt</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Au</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Hg</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Tl</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Pb</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Bi</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Po</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>At</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Rn</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+    </tr>
+    <!-- NEW ROW -->
+    <tr>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Fr</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ra</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Lr</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Rf</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Db</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Sg</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Bh</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Hs</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Mt</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ds</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Rg</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Cn</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Nh</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Fl</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Mc</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Lv</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ts</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Og</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+    </tr>
+    <!-- NEW ROW -->
+    <tr>
+      <td colspan="2"></td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>La</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ce</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Pr</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Nd</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Pm</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Sm</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Eu</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Gd</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Tb</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Dy</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Ho</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Er</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Tm</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Yb</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td colspan="2"></td>
+    </tr>
+    <!-- NEW ROW -->
+    <tr>
+      <td colspan="2"></td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>A         c</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>T         h</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Pa</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>U</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Np</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Pu</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Am</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Cm</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Bk</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Cf</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Es</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Fm</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>Md</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td>
+        <div class="element">
+          <small class="weight">Poids</small>
+          <br>
+          <big>No</big>
+          <br>
+          <small class="number">Num</small>
+        </div>
+      </td>
+      <td colspan="2"></td>
+    </tr>
+  </table>
+</body>
+</html>

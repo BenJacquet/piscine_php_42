@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+table {
+  width: 75%;
+}
+td {
+  width: 50px;
+  height: 50px;
+}
+big {
+  align-self: center;
+  font-size: 1.5vw;
+}
+td::after {
+  display: block;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+}
+.weight {
+  right: 0;
+  align-self: flex-end;
+  font-size: 1vw;
+}
+.number {
+  align-self: flex-start;
+  font-size: 1vw;
+}
